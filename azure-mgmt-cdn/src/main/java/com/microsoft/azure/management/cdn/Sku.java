@@ -18,13 +18,13 @@ public class Sku {
     /**
      * Name of the pricing tier. Possible values include: 'Standard_Verizon',
      * 'Premium_Verizon', 'Custom_Verizon', 'Standard_Akamai',
-     * 'Standard_ChinaCdn'.
+     * 'Standard_ChinaCdn', 'Premium_ChinaCdn', 'Standard_Microsoft'.
      */
     @JsonProperty(value = "name")
     private SkuName name;
 
     /**
-     * Get the name value.
+     * Get name of the pricing tier. Possible values include: 'Standard_Verizon', 'Premium_Verizon', 'Custom_Verizon', 'Standard_Akamai', 'Standard_ChinaCdn', 'Premium_ChinaCdn', 'Standard_Microsoft'.
      *
      * @return the name value
      */
@@ -33,7 +33,7 @@ public class Sku {
     }
 
     /**
-     * Set the name value.
+     * Set name of the pricing tier. Possible values include: 'Standard_Verizon', 'Premium_Verizon', 'Custom_Verizon', 'Standard_Akamai', 'Standard_ChinaCdn', 'Premium_ChinaCdn', 'Standard_Microsoft'.
      *
      * @param name the name value to set
      * @return the Sku object itself.
